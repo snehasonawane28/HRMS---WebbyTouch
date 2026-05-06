@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API = "http://localhost:8000/api";
+const API = "https://hrms-webbytouch-backend.onrender.com/api";
 
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 const LEAVE_TYPES = ["casual","sick","earned","maternity","unpaid"];
